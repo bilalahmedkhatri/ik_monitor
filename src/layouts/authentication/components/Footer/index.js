@@ -1,12 +1,12 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Team Stellar React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.azeemlab.com/product/material-dashboard-react
+* Copyright 2023 AzeemLab (https://www.azeemlab.com)
 
-Coded by www.creative-tim.com
+Coded by www.azeemlab.com
 
  =========================================================
 
@@ -21,11 +21,11 @@ import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Team Stellar React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
-// Material Dashboard 2 React base styles
+// Team Stellar React base styles
 import typography from "assets/theme/base/typography";
 
 function Footer({ light }) {
@@ -57,9 +57,9 @@ function Footer({ light }) {
               </Icon>
             </MDBox>
             by
-            <Link href="https://www.creative-tim.com/" target="_blank">
+            <Link href="https://www.azeemlab.com/" target="_blank">
               <MDTypography variant="button" fontWeight="medium" color={light ? "white" : "dark"}>
-                &nbsp;Creative Tim&nbsp;
+                &nbsp;AzeemLab&nbsp;
               </MDTypography>
             </Link>
             for a better web.
@@ -80,52 +80,7 @@ function Footer({ light }) {
                 mt: 0,
               },
             })}
-          >
-            <MDBox component="li" pr={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/" target="_blank">
-                <MDTypography
-                  variant="button"
-                  fontWeight="regular"
-                  color={light ? "white" : "dark"}
-                >
-                  Creative Tim
-                </MDTypography>
-              </Link>
-            </MDBox>
-            <MDBox component="li" px={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/presentation" target="_blank">
-                <MDTypography
-                  variant="button"
-                  fontWeight="regular"
-                  color={light ? "white" : "dark"}
-                >
-                  About Us
-                </MDTypography>
-              </Link>
-            </MDBox>
-            <MDBox component="li" px={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/blog" target="_blank">
-                <MDTypography
-                  variant="button"
-                  fontWeight="regular"
-                  color={light ? "white" : "dark"}
-                >
-                  Blog
-                </MDTypography>
-              </Link>
-            </MDBox>
-            <MDBox component="li" pl={2} lineHeight={1}>
-              <Link href="https://www.creative-tim.com/license" target="_blank">
-                <MDTypography
-                  variant="button"
-                  fontWeight="regular"
-                  color={light ? "white" : "dark"}
-                >
-                  License
-                </MDTypography>
-              </Link>
-            </MDBox>
-          </MDBox>
+          ></MDBox>
         </MDBox>
       </Container>
     </MDBox>

@@ -1,19 +1,19 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Team Stellar React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.azeemlab.com/product/material-dashboard-react
+* Copyright 2023 AzeemLab (https://www.azeemlab.com)
 
-Coded by www.creative-tim.com
+Coded by www.azeemlab.com
 
  =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Material Dashboard 2 React Button Styles
+// Team Stellar React Button Styles
 import root from "assets/theme-dark/components/button/root";
 import contained from "assets/theme-dark/components/button/contained";
 import outlined from "assets/theme-dark/components/button/outlined";

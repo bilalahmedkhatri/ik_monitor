@@ -1,12 +1,12 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Team Stellar React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.azeemlab.com/product/material-dashboard-react
+* Copyright 2023 AzeemLab (https://www.azeemlab.com)
 
-Coded by www.creative-tim.com
+Coded by www.azeemlab.com
 
  =========================================================
 
@@ -26,12 +26,12 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Team Stellar React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDAvatar from "components/MDAvatar";
 
-// Material Dashboard 2 React base styles
+// Team Stellar React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 
 // Images
@@ -65,31 +65,11 @@ function Header({ children }) {
   const handleSetTabValue = (event, newValue) => setTabValue(newValue);
 
   return (
-    <MDBox position="relative" mb={5}>
-      <MDBox
-        display="flex"
-        alignItems="center"
-        position="relative"
-        minHeight="18.75rem"
-        borderRadius="xl"
-        sx={{
-          backgroundImage: ({ functions: { rgba, linearGradient }, palette: { gradients } }) =>
-            `${linearGradient(
-              rgba(gradients.info.main, 0.6),
-              rgba(gradients.info.state, 0.6)
-            )}, url(${backgroundImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "50%",
-          overflow: "hidden",
-        }}
-      />
+    <MDBox mt={4} mb={3}>
       <Card
         sx={{
-          position: "relative",
-          mt: -8,
-          mx: 3,
-          py: 2,
-          px: 2,
+          py: 4,
+          px: 4,
         }}
       >
         <Grid container spacing={3} alignItems="center">
@@ -99,14 +79,14 @@ function Header({ children }) {
           <Grid item>
             <MDBox height="100%" mt={0.5} lineHeight={1}>
               <MDTypography variant="h5" fontWeight="medium">
-                Richard Davis
+                Azeem Ahmed
               </MDTypography>
               <MDTypography variant="button" color="text" fontWeight="regular">
-                CEO / Co-Founder
+                CEO
               </MDTypography>
             </MDBox>
           </Grid>
-          <Grid item xs={12} md={6} lg={4} sx={{ ml: "auto" }}>
+          {/* <Grid item xs={12} md={6} lg={4} sx={{ ml: "auto" }}>
             <AppBar position="static">
               <Tabs orientation={tabsOrientation} value={tabValue} onChange={handleSetTabValue}>
                 <Tab
@@ -135,7 +115,7 @@ function Header({ children }) {
                 />
               </Tabs>
             </AppBar>
-          </Grid>
+          </Grid> */}
         </Grid>
         {children}
       </Card>

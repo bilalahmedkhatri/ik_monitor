@@ -1,12 +1,12 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Team Stellar React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.azeemlab.com/product/material-dashboard-react
+* Copyright 2023 AzeemLab (https://www.azeemlab.com)
 
-Coded by www.creative-tim.com
+Coded by www.azeemlab.com
 
  =========================================================
 
@@ -18,7 +18,7 @@ import Card from "@mui/material/Card";
 // import Divider from "@mui/material/Divider";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Team Stellar React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 // import MDButton from "components/MDButton";
@@ -103,7 +103,7 @@ function Transactions() {
           <Transaction
             color="success"
             icon="expand_less"
-            name="Creative Tim"
+            name="AzeemLab"
             description="26 March 2020, at 08:30 AM"
             value="+ $ 2,500"
           />

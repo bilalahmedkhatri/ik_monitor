@@ -2,13 +2,13 @@
 /* eslint-disable react/function-component-definition */
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Team Stellar React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.azeemlab.com/product/material-dashboard-react
+* Copyright 2023 AzeemLab (https://www.azeemlab.com)
 
-Coded by www.creative-tim.com
+Coded by www.azeemlab.com
 
  =========================================================
 
@@ -18,7 +18,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Tooltip from "@mui/material/Tooltip";
 
-// Material Dashboard 2 React components
+// Team Stellar React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDAvatar from "components/MDAvatar";
@@ -87,7 +87,7 @@ export default function data() {
             {avatars([
               [team1, "Ryan Tompson"],
               [team2, "Romina Hadid"],
-              [team3, "Alexander Smith"],
+              [team3, "huriyander Smith"],
               [team4, "Jessica Doe"],
             ])}
           </MDBox>
@@ -130,7 +130,7 @@ export default function data() {
           <MDBox display="flex" py={1}>
             {avatars([
               [team1, "Ryan Tompson"],
-              [team3, "Alexander Smith"],
+              [team3, "huriyander Smith"],
             ])}
           </MDBox>
         ),
@@ -151,7 +151,7 @@ export default function data() {
           <MDBox display="flex" py={1}>
             {avatars([
               [team4, "Jessica Doe"],
-              [team3, "Alexander Smith"],
+              [team3, "huriyander Smith"],
               [team2, "Romina Hadid"],
               [team1, "Ryan Tompson"],
             ])}

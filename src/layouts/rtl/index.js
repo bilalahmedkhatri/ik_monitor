@@ -1,12 +1,12 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Team Stellar React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.azeemlab.com/product/material-dashboard-react
+* Copyright 2023 AzeemLab (https://www.azeemlab.com)
 
-Coded by www.creative-tim.com
+Coded by www.azeemlab.com
 
  =========================================================
 
@@ -18,10 +18,10 @@ import { useEffect } from "react";
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Material Dashboard 2 React components
+// Team Stellar React components
 import MDBox from "components/MDBox";
 
-// Material Dashboard 2 React example components
+// Team Stellar React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -37,7 +37,7 @@ import reportsLineChartData from "layouts/rtl/data/reportsLineChartData";
 import Projects from "layouts/rtl/components/Projects";
 import OrdersOverview from "layouts/rtl/components/OrdersOverview";
 
-// Material Dashboard 2 React contexts
+// Team Stellar React contexts
 import { useMaterialUIController, setDirection } from "context";
 
 function RTL() {

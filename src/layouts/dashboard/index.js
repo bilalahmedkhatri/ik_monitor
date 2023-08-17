@@ -1,48 +1,68 @@
-/**
-=========================================================
-* Material Dashboard 2 React - v2.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Material Dashboard 2 React components
+// Team Stellar React components
 import MDBox from "components/MDBox";
 
-// Material Dashboard 2 React example components
+// Team Stellar React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
-import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
-import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
-import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
+// import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
+// import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
+// import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 
 // Data
-import reportsBarChartData from "layouts/dashboard/data/reportsBarChartData";
+// import reportsBarChartData from "layouts/dashboard/data/reportsBarChartData";
 import reportsLineChartData from "layouts/dashboard/data/reportsLineChartData";
 
 // Dashboard components
-import Projects from "layouts/dashboard/components/Projects";
-import OrdersOverview from "layouts/dashboard/components/OrdersOverview";
+// import Projects from "layouts/dashboard/components/Projects";
+// import OrdersOverview from "layouts/dashboard/components/OrdersOverview";
+
+import image from "assets/images/home-decor-2.jpg";
+
+import image_ from "assets/images/home-decor-2.jpg";
+
+import CardMonitor from "examples/Cards/CardMonitor";
+import { useState } from "react";
 
 function Dashboard() {
   const { sales, tasks } = reportsLineChartData;
 
+  const [currentdate, setCurrentDate] = useState(new Date());
+  const number_of_live_screens = [
+    {
+      name: "ahmed",
+      os: "windows 10",
+      dt: currentdate.toLocaleString(),
+    },
+    {
+      name: "Usman",
+      os: "Linux - Ubuntu",
+      dt: currentdate.toLocaleString(),
+    },
+    {
+      name: "Mariam",
+      os: "Linux - Kali",
+      dt: currentdate.toLocaleString(),
+    },
+    {
+      name: "Raheel",
+      os: "Linux - Mint",
+      dt: currentdate.toLocaleString(),
+    },
+    {
+      name: "Aashaaz",
+      os: "MAC OS",
+      dt: currentdate.toLocaleString(),
+    },
+  ];
   return (
     <DashboardLayout>
       <DashboardNavbar />
       <MDBox py={3}>
-        <Grid container spacing={3}>
+        {/* <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={3}>
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
@@ -102,58 +122,35 @@ function Dashboard() {
               />
             </MDBox>
           </Grid>
-        </Grid>
+        </Grid> */}
         <MDBox mt={4.5}>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={6} lg={4}>
-              <MDBox mb={3}>
-                <ReportsBarChart
-                  color="info"
-                  title="website views"
-                  description="Last Campaign Performance"
-                  date="campaign sent 2 days ago"
-                  chart={reportsBarChartData}
-                />
-              </MDBox>
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
-              <MDBox mb={3}>
-                <ReportsLineChart
-                  color="success"
-                  title="daily sales"
-                  description={
-                    <>
-                      (<strong>+15%</strong>) increase in today sales.
-                    </>
-                  }
-                  date="updated 4 min ago"
-                  chart={sales}
-                />
-              </MDBox>
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
-              <MDBox mb={3}>
-                <ReportsLineChart
-                  color="dark"
-                  title="completed tasks"
-                  description="Last Campaign Performance"
-                  date="just updated"
-                  chart={tasks}
-                />
-              </MDBox>
-            </Grid>
+            {number_of_live_screens.map((e, key) => (
+              <Grid item xs={12} md={6} lg={4} key={key}>
+                <MDBox mb={3}>
+                  <CardMonitor
+                    color={key.name}
+                    title={e.name}
+                    os={e.os}
+                    date={e.dt}
+                    // date={`campaign ${key} sent days ago`}
+                    image={image_}
+                  />
+                </MDBox>
+              </Grid>
+            ))}
           </Grid>
         </MDBox>
-        <MDBox>
+        {/* <MDBox>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={6} lg={8}>
+            <Grid item xs={12} md={12} lg={8}>
               <Projects />
             </Grid>
             <Grid item xs={12} md={6} lg={4}>
               <OrdersOverview />
             </Grid>
           </Grid>
-        </MDBox>
+        </MDBox> */}
       </MDBox>
       <Footer />
     </DashboardLayout>

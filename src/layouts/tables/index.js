@@ -1,12 +1,12 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Team Stellar React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.azeemlab.com/product/material-dashboard-react
+* Copyright 2023 AzeemLab (https://www.azeemlab.com)
 
-Coded by www.creative-tim.com
+Coded by www.azeemlab.com
 
  =========================================================
 
@@ -17,11 +17,11 @@ Coded by www.creative-tim.com
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Material Dashboard 2 React components
+// Team Stellar React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
-// Material Dashboard 2 React example components
+// Team Stellar React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -31,7 +31,7 @@ import DataTable from "examples/Tables/DataTable";
 import authorsTableData from "layouts/tables/data/authorsTableData";
 import projectsTableData from "layouts/tables/data/projectsTableData";
 
-function Tables() {
+function UsersTable() {
   const { columns, rows } = authorsTableData();
   const { columns: pColumns, rows: pRows } = projectsTableData();
 
@@ -53,7 +53,7 @@ function Tables() {
                 coloredShadow="info"
               >
                 <MDTypography variant="h6" color="white">
-                  Authors Table
+                  Users
                 </MDTypography>
               </MDBox>
               <MDBox pt={3}>
@@ -67,7 +67,7 @@ function Tables() {
               </MDBox>
             </Card>
           </Grid>
-          <Grid item xs={12}>
+          {/* <Grid item xs={12}>
             <Card>
               <MDBox
                 mx={2}
@@ -93,7 +93,7 @@ function Tables() {
                 />
               </MDBox>
             </Card>
-          </Grid>
+          </Grid> */}
         </Grid>
       </MDBox>
       <Footer />
@@ -101,4 +101,4 @@ function Tables() {
   );
 }
 
-export default Tables;
+export default UsersTable;

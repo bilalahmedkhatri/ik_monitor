@@ -187,7 +187,7 @@ web-vitals
 - https://github.com/creativetimofficial/material-dashboard-react/issues/138 (can be closed since it was help wanted)
 - https://github.com/creativetimofficial/material-dashboard-react/issues/137 (user did not respond)
 - https://github.com/creativetimofficial/material-dashboard-react/issues/133 (fixed it by using `useLocation` from `react-router-dom`)
-- https://github.com/creativetimofficial/material-dashboard-react/issues/16 (please check the following page: https://demos.creative-tim.com/material-dashboard-react/#/rtl/rtl-page)
+- https://github.com/creativetimofficial/material-dashboard-react/issues/16 (please check the following page: https://demos.azeemlab.com/material-dashboard-react/#/rtl/rtl-page)
 
 ### Major style changes
 
@@ -380,7 +380,7 @@ ajv                        6.9.1   →   6.10.0
 ### Bug Fixing
 
 - [Added new script for npm](https://github.com/creativetimofficial/material-dashboard-react/issues/69)
-- Changed our buggy routing system, now it should work flawlessly, for more info, please refer to our [live docs here](https://demos.creative-tim.com/material-dashboard-react/#/documentation/routing-system)
+- Changed our buggy routing system, now it should work flawlessly, for more info, please refer to our [live docs here](https://demos.azeemlab.com/material-dashboard-react/#/documentation/routing-system)
 - [https://github.com/creativetimofficial/material-dashboard-react/issues/67](https://github.com/creativetimofficial/material-dashboard-react/issues/67)
 - [https://github.com/creativetimofficial/material-dashboard-react/issues/68](https://github.com/creativetimofficial/material-dashboard-react/issues/68)
 - [https://github.com/creativetimofficial/material-dashboard-react/issues/66](https://github.com/creativetimofficial/material-dashboard-react/issues/66)
@@ -653,4 +653,4 @@ ajv                        6.9.1   →   6.10.0
 ### Original Release
 
 - Added Material-UI as base framework
-- Added design from Material Dashboard by Creative Tim
+- Added design from Material Dashboard by AzeemLab
