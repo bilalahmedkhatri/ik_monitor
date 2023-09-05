@@ -25,7 +25,7 @@ import image from "assets/images/home-decor-2.jpg";
 import image_ from "assets/images/home-decor-2.jpg";
 
 import CardMonitor from "examples/Cards/CardMonitor";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Dashboard() {
   const { sales, tasks } = reportsLineChartData;
@@ -58,6 +58,22 @@ function Dashboard() {
       dt: currentdate.toLocaleString(),
     },
   ];
+
+  const [screens, setScreens] = useState([]);
+
+  useEffect(() => {
+    async function getScreens() {
+      try {
+        const screens = await axios.get("/users_monitor_data/");
+        setScreens(screens.data);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    getScreens();
+    console.log(getScreens());
+  }, []);
+
   return (
     <DashboardLayout>
       <DashboardNavbar />
