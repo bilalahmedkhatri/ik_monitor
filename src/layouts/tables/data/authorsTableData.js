@@ -26,7 +26,7 @@ import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
 import team4 from "assets/images/team-4.jpg";
 
-export default function data() {
+export default async function data() {
   const Author = ({ image, name, email }) => (
     <MDBox display="flex" alignItems="center" lineHeight={1}>
       <MDAvatar src={image} name={name} size="sm" />
@@ -58,6 +58,25 @@ export default function data() {
     ],
 
     rows: [
+      {
+        author: <Author image={team2} name="Bilal Ahmed" email="Bilal@azeemlab.com" />,
+        function: <Job title="Manager" description="Organization" />,
+        status: (
+          <MDBox ml={-1}>
+            <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
+          </MDBox>
+        ),
+        employed: (
+          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
+            23/04/18
+          </MDTypography>
+        ),
+        action: (
+          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
+            Edit
+          </MDTypography>
+        ),
+      },
       {
         author: <Author image={team2} name="Bilal Ahmed" email="Bilal@azeemlab.com" />,
         function: <Job title="Manager" description="Organization" />,

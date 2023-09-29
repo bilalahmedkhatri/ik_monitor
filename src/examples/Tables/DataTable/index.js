@@ -202,7 +202,7 @@ function DataTable({
           ))}
         </MDBox>
         <TableBody {...getTableBodyProps()}>
-          {page.map((row, key) => {
+          {/* {page.map((row, key) => {
             prepareRow(row);
             return (
               <TableRow key={key} {...row.getRowProps()}>
@@ -217,8 +217,8 @@ function DataTable({
                   </DataTableBodyCell>
                 ))}
               </TableRow>
-            );
-          })}
+            ); 
+          })}*/}
         </TableBody>
       </Table>
 
