@@ -169,14 +169,6 @@ At present, we officially aim to support the last two versions of the following 
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-## Resources
-
-- [Live Preview](https://demos.azeemlab.com/material-dashboard-react/#/dashboard?ref=readme-mdr)
-- [Download Page](https://www.azeemlab.com/product/material-dashboard-react?ref=readme-mdr)
-- Documentation is [here](https://www.azeemlab.com/learning-lab/react/overview/material-dashboard/?ref=readme-mdr)
-- [License Agreement](https://www.azeemlab.com/license?ref=readme-mdr)
-- [Support](https://www.azeemlab.com/contact-us?ref=readme-mdr)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/material-dashboard-react/issues)
 - [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
 
 ## Reporting Issues
@@ -187,33 +179,12 @@ We use GitHub Issues as the official bug tracker for the Material Dashboard Reac
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.azeemlab.com/contact-us?ref=readme-mdr) instead of opening an issue.
-
 ## Licensing
 
 - Copyright 2023 [AzeemLab](https://www.azeemlab.com?ref=readme-mdr)
 - AzeemLab [license](https://www.azeemlab.com/license?ref=readme-mdr)
 
-## Useful Links
-
-- [More products](https://www.azeemlab.com/templates?ref=readme-mdr) from AzeemLab
-
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-
-- [Freebies](https://www.azeemlab.com/bootstrap-themes/free?ref=readme-mdr) from AzeemLab
 
 - [Affiliate Program](https://www.azeemlab.com/affiliates/new?ref=readme-mdr) (earn money)
 
-##### Social Media
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
